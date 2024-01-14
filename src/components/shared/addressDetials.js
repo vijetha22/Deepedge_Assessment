@@ -12,7 +12,6 @@ import {
     RadioGroup,
     Typography,
 } from "@mui/material";
-import Dropdown from "./dropdown";
 export const AddressDetials = (props) => {
     const [addressDetails, setaddressDetails] = useState({
         mobile_number: "",
